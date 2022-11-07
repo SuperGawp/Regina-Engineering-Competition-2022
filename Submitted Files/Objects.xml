@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<Group>
+	<LocationList>
+		<Location>
+			<Name> Vancouver </Name>
+			<NextClosestLocation>
+				<Name> Regina </Name>
+				<Distance> 1767.7 </Distance>
+				<AvgSpeed> 110 </AvgSpeed>
+			</NextClosestLocation>
+		</Location>
+		<Location>
+			<Name> Regina </Name>
+			<NextClosestLocation>
+				<Name> Vancouver </Name>
+				<Distance> 1767.7 </Distance>
+				<AvgSpeed> 110 </AvgSpeed>
+			</NextClosestLocation>
+		</Location>
+		<Location>
+			<Name>Ottawa</Name>
+			<NextClosestLocation>
+				<Name> Regina </Name>
+				<Distance> 2721.4 </Distance>
+				<AvgSpeed> 110 </AvgSpeed>
+			</NextClosestLocation>
+		</Location>
+	</LocationList>
+
+	<TruckList>
+		<Truck>
+			<UnitNumber> 1001 </UnitNumber>
+			<Trailer> 2001 </Trailer>
+		</Truck>
+		<Truck>
+			<UnitNumber> 1002 </UnitNumber>
+			<Trailer> 2002 </Trailer>
+			<TailTrailer> 3002 </TailTrailer>
+		</Truck>
+		<Truck>
+			<UnitNumber> 1003 </UnitNumber>
+			<Trailer> 2003 </Trailer>
+		</Truck>
+	</TruckList>
+
+	<EmployeeList>
+		<Employee> 
+			<BTrainDriver> false </BTrainDriver>
+			<id>100253</id>
+			<Name>John Doe</Name>
+		</Employee>
+		<Employee>
+			<BTrainDriver> true </BTrainDriver>
+			<id>100267</id>
+			<Name>Jane Doe</Name>
+		</Employee>
+		<Employee>
+			<BTrainDriver> true </BTrainDriver>
+			<id>100101</id>
+			<Name> Jeremiah Smith </Name>
+		</Employee>
+	</EmployeeList>
+</Group>
